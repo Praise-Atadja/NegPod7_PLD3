@@ -1,0 +1,44 @@
+print("E-HEALTH - MENTAL HEALTH(FIRST AID)")
+
+
+def questions():
+    print("")
+    print("QUESTIONS")
+    print("")
+    print("1. Do you have frequent blackouts? ")
+    print("2. Have you had any thoughts of suicide? ")
+    print("3. Do you often have seizures?")
+    print("4. Have you ever heard people talking about you when no one else is around?")
+    print("5. Exit")
+    print()
+    selection = int(input("Enter Question Number :"))
+    if selection < 5:
+        input(r"Answer Yes/No")
+    elif selection == 5:
+        quit()
+    else:
+        print("Try Again")
+        questions()
+    while answer == "Yes":
+        if selection < 5
+            print("First Aid")
+            print("Contact General Physician")
+            print()
+            questions()
+        elif selection == 2:
+            print("First Aid")
+            print("Contact Psychologist")
+            print()
+            questions()
+        elif selection == 3:
+            print("First Aid")
+            print("Contact Neurologist")
+            print()
+            questions()
+        elif selection == 4:
+            print("First Aid")
+            print("Contact Psychiatrist")
+            print()
+            questions()
+        else:
+        print("error")
