@@ -15,17 +15,18 @@ def questions():
     print("")
 
     selection = int(input("Enter Question Number :"))
-    option = str(input("Answer Yes or No : "))
+    
     if selection > 5:
         print("Try again")
         print()
         questions()
     elif selection == 5:
-        quit()
         print("Thank You")
+         quit()
         questions()
+      option = str(input("Answer Yes or No : "))  
     if selection == 1:
-        if option == "Yes":
+        if option == "Yes" "yes":
             print(f"First Aid - Consult {doctors[0]}")
             print()
             questions()
@@ -35,7 +36,7 @@ def questions():
             questions()
 
     if selection == 2:
-        if option == "Yes":
+        if option == "Yes" or "yes":
             print(f"First - Consult {doctors[1]}")
             print()
             questions()
@@ -45,7 +46,7 @@ def questions():
             questions()
 
     if selection == 3:
-        if option == "Yes":
+        if option == "Yes" or "yes":
             print(f"First Aid - Consult  {doctors[2]}")
             print()
             questions()
@@ -55,7 +56,7 @@ def questions():
             questions()
 
     if selection == 4:
-        if option == "Yes":
+        if option == "Yes" or "yes":
             print(f"First Aid - Consult  {doctors[2]}")
             print()
             questions()
