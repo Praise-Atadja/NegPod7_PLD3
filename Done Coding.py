@@ -26,7 +26,7 @@ def questions():
         questions()
       option = str(input("Answer Yes or No : "))  
     if selection == 1:
-        if option == "Yes" "yes":
+        if option == "Yes" or "yes":
             print(f"First Aid - Consult {doctors[0]}")
             print()
             questions()
