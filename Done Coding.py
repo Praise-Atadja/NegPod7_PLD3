@@ -1,5 +1,5 @@
 #!/usr/bin/python3 
-doctors =['General physician','psycologist','Neurologist']
+Doctor=['General physician','psycologist','Neurologist']
 print("E-HEALTH - MENTAL HEALTH(FIRST AID)")
 
 
