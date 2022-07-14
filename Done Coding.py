@@ -1,3 +1,5 @@
+#!/usr/bin/python3 
+doctors =['General physician','psycologist','Neurologist']
 print("E-HEALTH - MENTAL HEALTH(FIRST AID)")
 
 
@@ -24,7 +26,7 @@ def questions():
         questions()
     if selection == 1:
         if option == "Yes":
-            print("First Aid - Consult General Physician")
+            print(f"First Aid - Consult {doctors[0]}")
             print()
             questions()
         else:
@@ -34,7 +36,7 @@ def questions():
 
     if selection == 2:
         if option == "Yes":
-            print("First - Consult Psychologist")
+            print(f"First - Consult {doctors[1]}")
             print()
             questions()
         else:
@@ -44,7 +46,7 @@ def questions():
 
     if selection == 3:
         if option == "Yes":
-            print("First Aid - Consult Neurologist")
+            print(f"First Aid - Consult  {doctors[2]}")
             print()
             questions()
         else:
@@ -54,7 +56,7 @@ def questions():
 
     if selection == 4:
         if option == "Yes":
-            print("First Aid - Consult Neurologist")
+            print(f"First Aid - Consult  {doctors[2]}")
             print()
             questions()
         else:
