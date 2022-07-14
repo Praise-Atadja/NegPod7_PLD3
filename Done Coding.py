@@ -1,5 +1,4 @@
-#!/usr/bin/python3 
-doctors = ['General physician', 'psychologist', 'Neurologist']
+doctors = ['General physician', 'psychologist', 'Neurologist', 'Psychiatrist']
 print("E-HEALTH - MENTAL HEALTH(FIRST AID)")
 
 
@@ -13,21 +12,22 @@ def questions():
     print("4. Have you ever heard people talking about you when no one else is around?")
     print("5. Exit")
     print("")
+    float(input("Enter your age :"))
+    float(input("Enter your height : "))
+    float(input("Enter your weight :"))
 
-    selection = int(input("Enter Question Number :"))
-    
+    selection = int(input("Enter Question Number : "))
     if selection > 5:
         print("Try again")
-        print()
         questions()
     elif selection == 5:
         print("Thank You")
-         quit()
-        questions()
-      option = str(input("Answer Yes or No : "))  
+        quit()
+
+    option = str(input("Answer Yes or No : "))
     if selection == 1:
         if option == "Yes" or "yes":
-            print(f"First Aid - Consult {doctors[0]}")
+            print('f"First Aid - Consult {doctors[0]}"')
             print()
             questions()
         else:
@@ -37,7 +37,7 @@ def questions():
 
     if selection == 2:
         if option == "Yes" or "yes":
-            print(f"First - Consult {doctors[1]}")
+            print(f'"First Aid - Consult {doctors[1]}"')
             print()
             questions()
         else:
@@ -47,7 +47,7 @@ def questions():
 
     if selection == 3:
         if option == "Yes" or "yes":
-            print(f"First Aid - Consult  {doctors[2]}")
+            print(f'"First Aid - Consult {doctors[2]}"')
             print()
             questions()
         else:
@@ -57,7 +57,7 @@ def questions():
 
     if selection == 4:
         if option == "Yes" or "yes":
-            print(f"First Aid - Consult  {doctors[2]}")
+            print(f'"First Aid - Consult {doctors[3]}"')
             print()
             questions()
         else:
