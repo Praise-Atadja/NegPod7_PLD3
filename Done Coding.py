@@ -15,6 +15,7 @@ def questions():
     print("")
 
     selection = int(input("Enter Question Number :"))
+    height = int(input("Input your height :"))
     option = str(input("Answer Yes or No : "))
     if selection > 5:
         print("Try again")
